@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.theshop365.www" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+   <name>Shop365</name>
+    <description>The official app for TheShop365</description>
+    <author email="support@theshop365.com" href="https://theshop365.com">TheShop365 Team</author>
+
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-navigation href="https://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <!-- these are the icons -->
+
+    <platform name="android">
+
+        <preference name="AndroidWindowSplashScreenAnimatedIcon" value="res/screens/android/splash1.png" />
+        <preference name="AndroidWindowSplashScreenBackground" value="#EAA306" />
+        <preference name="AndroidWindowSplashScreenDuration" value="1000" />
+        <preference name="AndroidWindowSplashScreenFadeOutDuration" value="500" />
+        <preference name="AutoHideSplashScreen" value="true" />
+
+
+        <icon src="res/icons/android/icon-48.png" density="mdpi" />
+        <icon src="res/icons/android/icon-72.png" density="hdpi" />
+        <icon src="res/icons/android/icon-96.png" density="xhdpi" />
+        <icon src="res/icons/android/icon-144.png" density="xxhdpi" />
+        <icon src="res/icons/android/icon-192.png" density="xxxhdpi" />
+    </platform>
+
+
+    <content src="https://theshop365.com" />
+    <access origin="https://theshop365.com" />
+
+    
+
+
+
+
+</widget>
